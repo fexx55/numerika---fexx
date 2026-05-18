@@ -1,0 +1,11 @@
+Nuevos métodos a desarrollar
+    Sistemas de Ecuaciones Lineales como Gauss y Jacobi
+    Interpolación (aura)
+    Resolución de EDO mediante Euler o Runge-Kutta
+    
+Nuevas aplicaciones a desarrollar
+    Análisis de Circuitos (Ing. Eléctrica). Utiliza la resolución de sistemas de ecuaciones con Gauss y 
+    se usa para resolver las corrientes en un circuito con 3 o más mallas. Inputs: Resistencias y voltajes
+
+    Enfriamiento de Hardware (Termodinámica) Usa resolución de EDO y se usa para calcular cuanto tarda un 
+    componente como un procesador en llegar a 90°C según la cantidad de flujo de aire en los ventiladores
