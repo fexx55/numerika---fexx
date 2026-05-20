@@ -7,46 +7,46 @@ const slides = [
     id: 1,
     type: 'hero',
     title: 'Numérika AI',
-    subtitle: 'Métodos numéricos',
-    accent: 'que se entienden.',
-    content: 'Plataforma interactiva para el cálculo, visualización y comprensión de métodos numéricos en la ingeniería.',
+    subtitle: 'Numerical methods',
+    accent: 'that make sense.',
+    content: 'Interactive platform for the calculation, visualization, and comprehension of numerical methods in engineering.',
     footer: 'Ezequiel Silvera Sandoval - Santiago Daniel Chocobar - Juan Ignacio Quinteros Navarro - Gonzalo Nahuel Luna - Lautaro Zahir Oliver '
   },
   {
     id: 2,
     type: 'cards',
-    title: '¿Cómo surgió',
-    accent: 'la idea?',
+    title: 'How did the idea',
+    accent: 'come about?',
     cards: [
-      { title: 'Abstracción', desc: 'La teoría matemática en el aula suele ser difícil de visualizar en la práctica.' },
-      { title: 'Caja Negra', desc: 'Las calculadoras tradicionales dan el resultado, pero no explican el "por qué" ni muestran el error.' },
-      { title: 'Unificación', desc: 'Necesidad de tener resolución, gráficos, iteraciones y teoría en una sola herramienta.' }
+      { title: 'Abstraction', desc: 'Mathematical theory in the classroom is often difficult to visualize in practice.' },
+      { title: 'Black Box', desc: 'Traditional calculators provide the result, but do not explain the "why" or show the error.' },
+      { title: 'Unification', desc: 'The need to have calculation, graphs, iterations, and theory all in a single tool.' }
     ]
   },
-    {
+  {
     id: 3,
     type: 'cards',
-    title: 'Numérika AI optimiza el aprendizaje técnico',
-    accent: 'de métodos numéricos',
+    title: 'Numérika AI optimizes technical learning',
+    accent: 'of numerical methods',
     cards: [
-      { icon: <Zap size={24}/>, title: 'Aprendizaje', desc: 'No solo entrega resultados; explica el "por qué" y visualiza el proceso de convergencia.' },
-      { icon: <Cpu size={24}/>, title: 'Arquitectura', desc: 'Motor híbrido que combina la velocidad de JavaScript con el poder simbólico de Python.' },
-      { icon: <Server size={24}/>, title: 'Aplicaciones', desc: 'Simuladores integrados para ingeniería eléctrica, térmica y civil en tiempo real.' }
+      { icon: <Zap size={24}/>, title: 'Learning', desc: 'It doesn\'t just deliver results; it explains the "why" and visualizes the convergence process.' },
+      { icon: <Cpu size={24}/>, title: 'Architecture', desc: 'Hybrid engine combining JavaScript\'s speed with Python\'s symbolic power.' },
+      { icon: <Server size={24}/>, title: 'Applications', desc: 'Integrated simulators for electrical, thermal, and civil engineering in real time.' }
     ]
   },
   {
     id: 4,
     type: 'split',
-    title: 'Arquitectura',
-    accent: 'Técnica',
+    title: 'Technical',
+    accent: 'Architecture',
     left: (
       <div className="space-y-4">
         <h3 className="text-xl font-bold border-b border-[#82bdae]/30 pb-2">Frontend (React)</h3>
-        <p className="text-gray-600">Visualización interactiva con Recharts y algoritmos rápidos en el navegador.</p>
+        <p className="text-gray-600">Interactive visualization with Recharts and fast in-browser algorithms.</p>
         <ul className="list-disc pl-5 text-gray-600 space-y-2">
           <li>React.js & Tailwind CSS</li>
-          <li>Recharts (Gráficos)</li>
-          <li>Ejecución JS nativa (Trapecio, Gauss)</li>
+          <li>Recharts (Graphics)</li>
+          <li>Native JS execution (Trapezoid, Gauss)</li>
         </ul>
       </div>
     ),
@@ -54,11 +54,11 @@ const slides = [
     right: (
       <div className="space-y-4">
         <h3 className="text-xl font-bold border-b border-[#82bdae]/30 pb-2">Backend (Python)</h3>
-        <p className="text-gray-600">Motor SymPy para EDOs y derivadas exactas con precisión científica.</p>
+        <p className="text-gray-600">SymPy engine for ODEs and exact derivatives with scientific precision.</p>
         <ul className="list-disc pl-5 text-gray-600 space-y-2">
           <li>Python & FastAPI</li>
-          <li>SymPy (EDOs, Derivadas)</li>
-          <li>Microservicio IA (Explicaciones)</li>
+          <li>SymPy (ODEs, Derivatives)</li>
+          <li>AI Microservice (Explanations)</li>
         </ul>
       </div>
     )
@@ -66,20 +66,20 @@ const slides = [
   {
     id: 5,
     type: 'grid',
-    title: 'Solver y',
-    accent: 'Métodos',
+    title: 'Solver and',
+    accent: 'Methods',
     items: [
-      { icon: <LineChart size={24} />, title: 'Raíces de Ecuaciones', desc: 'Bisección, Newton-Raphson, Secante. Gráficos en tiempo real.' },
-      { icon: <Layers size={24} />, title: 'Sistemas Lineales', desc: 'Métodos directos (Gauss) e iterativos (Jacobi, Seidel).' },
-      { icon: <Calculator size={24} />, title: 'Integración', desc: 'Aproximación de áreas mediante Trapecio y métodos de Simpson.' },
+      { icon: <LineChart size={24} />, title: 'Equation Roots', desc: 'Bisection, Newton-Raphson, Secant. Real-time graphs.' },
+      { icon: <Layers size={24} />, title: 'Linear Systems', desc: 'Direct (Gauss) and iterative (Jacobi, Seidel) methods.' },
+      { icon: <Calculator size={24} />, title: 'Integration', desc: 'Area approximation using Trapezoid and Simpson\'s rules.' },
     ]
   },
-{
+  {
     id: 6,
     type: 'code',
-    title: 'Motor',
-    accent: 'Matemático',
-    desc: 'Evaluación segura, validación del Teorema de Bolzano y recolección de métricas para gráficos 3D/2D.',
+    title: 'Mathematical',
+    accent: 'Engine',
+    desc: 'Secure evaluation, Bolzano Theorem validation, and metrics collection for 3D/2D graphs.',
     code: `// src/utils/numericalMethods.js - Método de Bisección
 import { evaluate } from 'mathjs';
 
@@ -112,12 +112,12 @@ export function bisectionMethod(expression, a, b, tol = 1e-4) {
   return { raiz: xr, historial: iteraciones };
 }`
   },
-{
+  {
     id: 7,
     type: 'code',
-    title: 'Calculadora: Renderizado',
-    accent: 'LaTeX Dinámico',
-    desc: 'Transpilación en tiempo real de texto plano a formato matemático mediante Árboles de Sintaxis Abstracta (AST).',
+    title: 'Calculator: Dynamic',
+    accent: 'LaTeX Rendering',
+    desc: 'Real-time transpilation of plain text to mathematical format using Abstract Syntax Trees (AST).',
     code: `// src/components/MathComponents.jsx
 import 'katex/dist/katex.min.css';
 import { BlockMath } from 'react-katex';
@@ -140,12 +140,12 @@ export function FormulaLatex({ inputUsuario }) {
   }
 }`
   },
-{
+  {
     id: 8,
     type: 'code',
-    title: 'Parseo',
-    accent: 'Dinámico',
-    desc: 'Custom Hook asíncrono para la preparación de datos y consumo de la API REST del motor científico.',
+    title: 'Dynamic',
+    accent: 'Parsing',
+    desc: 'Asynchronous Custom Hook for data preparation and consumption of the scientific engine REST API.',
     code: `// src/hooks/useMathEngine.js - Abstracción de la API Científica
 import { useState } from 'react';
 
@@ -182,20 +182,20 @@ export const useMathEngine = () => {
   {
     id: 9,
     type: 'cards',
-    title: 'Aplicaciones',
-    accent: 'Reales',
+    title: 'Real-World',
+    accent: 'Applications',
     cards: [
-      { title: 'Ingeniería Eléctrica', desc: 'Análisis de Circuitos. Cálculo exacto de corrientes en sistemas de múltiples mallas utilizando Eliminación de Gauss.' },
-      { title: 'Ingeniería Térmica', desc: 'Enfriamiento de Hardware. Predicción de umbrales críticos de temperatura (90°C) en CPUs utilizando Runge-Kutta 4.' },
-      { title: 'Ingeniería Civil', desc: 'Análisis de vigas y riesgo urbano. Llevando la matemática abstracta al diseño físico.' }
+      { title: 'Electrical Engineering', desc: 'Circuit Analysis. Exact current calculation in multi-mesh systems using Gaussian Elimination.' },
+      { title: 'Thermal Engineering', desc: 'Hardware Cooling. Prediction of critical temperature thresholds (90°C) in CPUs using Runge-Kutta 4.' },
+      { title: 'Civil Engineering', desc: 'Beam analysis and urban risk. Bringing abstract math into physical design.' }
     ]
   },
-{
+  {
     id: 10,
     type: 'code',
-    title: 'Simulación',
-    accent: 'Termodinámica',
-    desc: 'Inyección de constantes físicas en la Ecuación Diferencial para predecir el límite térmico.',
+    title: 'Thermodynamic',
+    accent: 'Simulation',
+    desc: 'Injection of physical constants into the Differential Equation to predict the thermal limit.',
     code: `// src/utils/simulators/coolingModel.js
 import { solveRK4 } from '../numericalMethods';
 
@@ -226,47 +226,47 @@ export function simulateCPUCooling(T_inicial, T_amb, coef_ventilacion, TDP, maxT
   };
 }`
   },
-   {
-  id: 11,
-  type: 'metrics',
-  title: 'La IA Generativa',
-  accent: 'como tutor pedagógico',
-  description: 'A diferencia de una IA genérica, Ika analiza los resultados exactos del motor numérico para explicar el comportamiento matemático real, evitando alucinaciones algebraicas.',
-  items: [
-    { value: '100%', label: 'Contextual' },
-    { value: '24/7', label: 'Disponibilidad' }
-  ]
-},
+  {
+    id: 11,
+    type: 'metrics',
+    title: 'Generative AI',
+    accent: 'as a pedagogical tutor',
+    description: 'Unlike generic AI, Ika analyzes exact results from the numerical engine to explain real mathematical behavior, avoiding algebraic hallucinations.',
+    items: [
+      { value: '100%', label: 'Contextual' },
+      { value: '24/7', label: 'Availability' }
+    ]
+  },
   {
     id: 12,
     type: 'comparison',
     title: 'Numérika AI vs.',
-    accent: 'Herramientas Genéricas',
-    headers: ['Característica', 'Calculadoras Trad.', 'IA Genérica', 'Numérika AI'],
+    accent: 'Generic Tools',
+    headers: ['Feature', 'Trad. Calculators', 'Generic AI', 'Numérika AI'],
     rows: [
-      ['Cálculo Simbólico', 'Limitado', 'Inconsistente', 'Precisión SymPy'],
-      ['Visualización de Error', 'Nula', 'Nula', 'Gráficos Recharts'],
-      ['Pedagogía / Paso a Paso', 'Pobre', 'Alucinaciones', 'Asistente IKA']
+      ['Symbolic Calculation', 'Limited', 'Inconsistent', 'SymPy Precision'],
+      ['Error Visualization', 'None', 'None', 'Recharts Graphs'],
+      ['Pedagogy / Step-by-Step', 'Poor', 'Hallucinations', 'IKA Assistant']
     ]
   },
   {
     id: 13,
     type: 'grid',
-    title: 'Futuro',
-    accent: 'Numérika',
+    title: 'Numérika',
+    accent: 'Future',
     items: [
-      { icon: <Database size={24} />, title: 'Base de Datos', desc: 'Implementación de PostgreSQL para guardar el historial y los cálculos de los usuarios.' },
-      { icon: <Server size={24} />, title: 'Escalabilidad', desc: 'Gráficos 3D para funciones multivariables y exportación automática a PDF.' },
-      { icon: <Zap size={24} />, title: 'IA Generativa', desc: 'Potenciar a "Ika" para que detecte errores algebraicos en los inputs del usuario en tiempo real.' },
+      { icon: <Database size={24} />, title: 'Database', desc: 'PostgreSQL implementation to store user history and calculations.' },
+      { icon: <Server size={24} />, title: 'Scalability', desc: '3D graphics for multivariable functions and automatic PDF export.' },
+      { icon: <Zap size={24} />, title: 'Generative AI', desc: 'Empowering "Ika" to detect algebraic errors in user inputs in real time.' },
     ]
   },
   {
     id: 14,
     type: 'hero',
-    title: 'De la teoría a la herramienta',
-    subtitle: 'Muchas gracias por su atención.',
-    accent: '¿Preguntas?',
-    footer: 'Numérika AI • Analisis Numerico • Ing. Informatica 2026'
+    title: 'From theory to tool',
+    subtitle: 'Thank you very much for your attention.',
+    accent: 'Questions?',
+    footer: 'Numérika AI • Numerical Analysis • Computer Engineering 2026'
   }
 ];
 
@@ -281,7 +281,7 @@ export default function App() {
     setCurrentIdx((prev) => (prev > 0 ? prev - 1 : prev));
   }, []);
 
-  // Navegación por teclado
+  // Keyboard Navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
@@ -475,7 +475,7 @@ export default function App() {
           disabled={currentIdx === 0}
           className={`flex items-center gap-2 px-4 py-2 rounded-full border ${currentIdx === 0 ? 'border-gray-200 text-gray-300 cursor-not-allowed' : 'border-[#82bdae] text-[#82bdae] hover:bg-[#82bdae] hover:text-white transition-colors'}`}
         >
-          <ChevronLeft size={18} /> <span className="text-sm font-semibold tracking-wider uppercase">Anterior</span>
+          <ChevronLeft size={18} /> <span className="text-sm font-semibold tracking-wider uppercase">Previous</span>
         </button>
 
         {/* INDICADOR DE PROGRESO */}
@@ -494,7 +494,7 @@ export default function App() {
           disabled={currentIdx === slides.length - 1}
           className={`flex items-center gap-2 px-4 py-2 rounded-full border ${currentIdx === slides.length - 1 ? 'border-gray-200 text-gray-300 cursor-not-allowed' : 'border-[#82bdae] text-[#82bdae] hover:bg-[#82bdae] hover:text-white transition-colors'}`}
         >
-           <span className="text-sm font-semibold tracking-wider uppercase">Siguiente</span> <ChevronRight size={18} />
+           <span className="text-sm font-semibold tracking-wider uppercase">Next</span> <ChevronRight size={18} />
         </button>
       </footer>
 
